@@ -1,3 +1,31 @@
-<div class="home___container">
-  <app-quizz></app-quizz>
+<div class="home-container">
+  <div class="header-section">
+    <div class="buzzfeed-logo">
+      <img src="../../../assets/imgs/logo.png" alt="logo">
+    </div>
+    <div class="text">
+      <h3>
+        Bem-vindo(a) ao nosso site de quizzes! Descubra sua personalidade e divirta-se com nossos quizzes temáticos.
+      </h3>
+    </div>
+  </div>
+  <div class="quiz-section">
+    <div class="quizzes">
+      <div class="quiz" *ngFor="let quiz of quizzes" >
+        <div class="img-quiz">
+          <img src={{quiz.imgURL}} alt="" width="280px">
+          <div class="description">
+            <a [routerLink]="['/quiz/' + quiz.id]">
+              {{quiz.description}}
+            </a>
+          </div>
+        </div>
+        <div class="title">
+          <p>
+            {{quiz.title}}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

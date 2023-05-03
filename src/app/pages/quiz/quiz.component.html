@@ -1,0 +1,60 @@
+<div class="quiz-container">
+  <div class="quiz-header">
+    <app-card>
+      <h3 class="title-quiz">
+        {{quizzType.title}}
+      </h3>
+      <div class="img-quiz">
+        <img
+          src={{quizzType.imgURL}}
+          alt="">
+      </div>
+    </app-card>
+    <app-card>
+      <p class="description">
+        {{quizzType.description}}
+      </p>
+    </app-card>
+  </div>
+  <div class="quiz-body">
+    <app-card *ngFor="let question of questionsList" [id]="'question-'+question.id" >
+      <div class="question">
+        <div class="question-header">
+          <img
+            src={{question.imgURL}}
+            alt="">
+          <h3>{{question.question}}</h3>
+        </div>
+        <div class="options">
+          <div
+          *ngFor="let option of question.options"
+          class="option-container"
+          [class.disable]="!(questionId === question.id)"
+          [class.player-choose]="answers[question.id - 1] === option.alias" >
+            <button *ngIf="!(questionId === question.id)">
+              {{option.name}}
+            </button>
+            <button (click)="playerClickOption(option.alias)" *ngIf="questionId === question.id">
+              {{option.name}}
+            </button>
+          </div>
+        </div>
+      </div>
+    </app-card>
+    <app-card *ngIf="displayResult" >
+      <div class="result">
+        <img src={{result.imgURL}} alt="">
+        <h3>
+          {{result.name}}
+        </h3>
+        <p>
+          {{result.description}}
+        </p>
+        <button>Jogar novamente?</button>
+      </div>
+    </app-card>
+    <a [routerLink]="['/']">
+      voltar para home
+    </a>
+  </div>
+</div>

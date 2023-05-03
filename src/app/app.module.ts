@@ -3,14 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { QuizzComponent } from './components/quizz/quizz.component';
 import { HomeComponent } from './pages/home/home.component';
+import { QuizComponent } from './pages/quiz/quiz.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    QuizzComponent,
-    HomeComponent
+    HomeComponent,
+    QuizComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

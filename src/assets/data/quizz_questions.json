@@ -1,55 +1,821 @@
-{
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
-    {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
-      ]
-    },
-    {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
-      ]
-    },
-    {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
-      ]
-    },
-    {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
-      ]
-    },
-    {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
-      ]
+[
+  {
+    "id": 1,
+    "title": "Qual casa de Hogwarts você seria?",
+    "imgURL": "https://1.bp.blogspot.com/-vkG0CjoS0I0/YG8kU_tQHkI/AAAAAAAADMM/ZZHt3UHGMmoo4TVQ2GfTR2bMoJ20CzV6gCLcBGAsYHQ/s2048/EONb4ENU4AIipTP.jpg",
+    "description": "Você é fã de Harry Potter? Já se perguntou em qual das casas de Hogwarts você se encaixaria? Este quiz foi projetado para ajudá-lo a descobrir se você seria selecionado(a) para a Grifinória, Lufa-Lufa, Corvinal ou Sonserina. Responda as perguntas com cuidado, cada uma delas tem quatro opções de resposta, cada uma com um indicador para ajudar a determinar a casa de Hogwarts que mais combina com você. No final, você receberá sua casa de Hogwarts e uma breve descrição das características da casa e dos alunos que a frequentam. Divirta-se e boa sorte!",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual é a sua atitude em relação a desafios?",
+        "imgURL": "https://media.gettyimages.com/id/471200018/pt/foto/ajudando-a-choques.jpg?s=612x612&w=0&k=20&c=iwmRFi6P6NPOmQSarJ5kkFBoV2FjfukpQHCBVIinEqQ=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Eu gosto de desafios e tento superá-los sempre que possível. ",
+            "alias": "G"
+          },
+          {
+            "id": 2,
+            "name": "Eu sou mais cauteloso e tento pesar as opções antes de agir.",
+            "alias": "C"
+          },
+          {
+            "id": 3,
+            "name": "Eu prefiro evitar desafios sempre que possível.",
+            "alias": "L"
+          },
+          {
+            "id": 4,
+            "name": "Eu gosto de desafios, mas não gosto de assumir riscos desnecessários.",
+            "alias": "S"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual é a sua habilidade mais forte?",
+        "imgURL": "https://media.gettyimages.com/id/1343298668/pt/foto/collage-of-young-woman-multitasking-by-juggling-several-geometric-shapes.jpg?s=612x612&w=0&k=20&c=wyfHN9jINDKiNhXt6RL2-3upFpVWQFXgmufBo6ACfuM=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Inteligência e pensamento crítico.",
+            "alias": "C"
+          },
+          {
+            "id": 2,
+            "name": "Força e habilidade física.",
+            "alias": "G"
+          },
+          {
+            "id": 3,
+            "name": "Astúcia e habilidade de manipulação.",
+            "alias": "S"
+          },
+          {
+            "id": 4,
+            "name": "Empatia e compaixão.",
+            "alias": "L"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual é a sua maior qualidade pessoal?",
+        "imgURL": "https://media.gettyimages.com/id/1301343014/pt/foto/woman-flexing-muscles-in-front-of-superhero-shadow.jpg?s=612x612&w=0&k=20&c=M8n5pPQBgkEB-QV614DkC8zqQn0wS5x40MMYRqfzsdk=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Paciência.",
+            "alias": "L"
+          },
+          {
+            "id": 2,
+            "name": "Coragem.",
+            "alias": "G"
+          },
+          {
+            "id": 3,
+            "name": "Sabedoria.",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Ambição.",
+            "alias": "S"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "O que você valoriza mais em um amigo?",
+        "imgURL": "https://media.gettyimages.com/id/1391836113/pt/foto/three-young-people-sit-around-a-table-and-giggle-as-they-have-a-lighthearted-discussion-and.jpg?s=612x612&w=0&k=20&c=OdqG4UvoUrWtsDDkBJXuzgnTQE65lzgXfuyMFmy_xTA=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Ambição.",
+            "alias": "S"
+          },
+          {
+            "id": 2,
+            "name": "Lealdade.",
+            "alias": "G"
+          },
+          {
+            "id": 3,
+            "name": "Inteligência.",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Sinceridade.",
+            "alias": "L"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Como você lida com desafios emocionais?",
+        "imgURL": "https://media.gettyimages.com/id/655058143/pt/foto/mountain-man-on-a-summit.jpg?s=612x612&w=0&k=20&c=UR2S6UusHRAFhT-tpZmWvrdy-h3urj3G1yigzAH1WG4=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Eu tomo tempo para refletir e entender meus sentimentos antes de agir.",
+            "alias": "C"
+          },
+          {
+            "id": 2,
+            "name": "Eu busco apoio emocional de amigos e familiares.",
+            "alias": "L"
+          },
+          {
+            "id": 3,
+            "name": "Eu lido com desafios emocionais sozinho(a) e não gosto de pedir ajuda.",
+            "alias": "S"
+          },
+          {
+            "id": 4,
+            "name": "Eu enfrento meus problemas de frente e tento resolvê-los rapidamente.",
+            "alias": "G"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Qual é o seu maior medo?",
+        "imgURL": "https://media.gettyimages.com/id/1352020247/pt/foto/sleepless-woman-lying-in-bed-hiding-under-duvet-at-night.jpg?s=612x612&w=0&k=20&c=LVkYVeg0GFZrvhDG9hfRO6Jv99h0yndghKmzZnY2OYo=",
+        "options": [
+          {
+            "id": 1,
+            "name": " Perder a si mesmo(a) ou a seus entes queridos.",
+            "alias": "G"
+          },
+          {
+            "id": 2,
+            "name": "Perder poder ou controle sobre sua vida.",
+            "alias": "S"
+          },
+          {
+            "id": 3,
+            "name": "Ser rejeitado(a) ou abandonado(a).",
+            "alias": "L"
+          },
+          {
+            "id": 4,
+            "name": "Falhar ou tomar uma decisão errada.",
+            "alias": "C"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Qual é o seu tipo de música preferido?",
+        "imgURL": "https://media.gettyimages.com/id/1407003511/pt/foto/woman-playing-guitar-at-music-studio.jpg?s=612x612&w=0&k=20&c=kdC1JrblqybK26quan_we46POWj9jxA9492uiMwKZgw=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Rock ou música clássica.",
+            "alias": "G"
+          },
+          {
+            "id": 2,
+            "name": "Folk ou música acústica.",
+            "alias": "L"
+          },
+          {
+            "id": 3,
+            "name": "Jazz ou música experimental.",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Hip hop ou música eletrônica.",
+            "alias": "S"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Como você se sente em grandes grupos sociais?",
+        "imgURL": "https://media.gettyimages.com/id/1425336452/pt/foto/rear-view-of-tech-entrepreneur-interacting-with-audience-applauding-in-panel-discussion-at.jpg?s=612x612&w=0&k=20&c=Fd2HiEF9P3MWvChHHROuVSgySqvGpgOfvtr6QaiZlDs=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Eu adoro estar no centro das atenções.",
+            "alias": "G"
+          },
+          {
+            "id": 2,
+            "name": "Eu prefiro ficar em pequenos grupos de pessoas que eu conheço bem.",
+            "alias": "C"
+          },
+          {
+            "id": 3,
+            "name": "Eu me sinto confortável em qualquer grupo social. ",
+            "alias": "L"
+          },
+          {
+            "id": 4,
+            "name": "Eu gosto de observar as pessoas antes de me juntar a um grupo.",
+            "alias": "S"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Qual atividade você mais gosta de fazer no seu tempo livre?",
+        "imgURL": "https://media.gettyimages.com/id/509403985/pt/foto/woman-chasing-man-while-riding-bicycle.jpg?s=612x612&w=0&k=20&c=0Ptovyd-dY3WbcOPVvrrCxPH9ZSvO7nd9-yLHm0Pxns=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Praticar esportes.",
+            "alias": "G"
+          },
+          {
+            "id": 2,
+            "name": "Assistir filmes e séries.",
+            "alias": "S"
+          },
+          {
+            "id": 3,
+            "name": "Ler livros.",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Passar tempo com amigos e família.",
+            "alias": "L"
+          }
+        ]
+      }
+    ],
+    "results": {
+      "G": {
+        "name": "Grifinória",
+        "imgURL": "https://img.ibxk.com.br/2021/04/19/19165615261383.jpg?ims=704x",
+        "description": "A casa da coragem, bravura e determinação. Os alunos de Grifinória são conhecidos por serem destemidos, leais e protetores. Eles valorizam a amizade e a justiça, e estão sempre dispostos a ajudar os outros. A espada de Godric Gryffindor é um símbolo importante da casa, e é dito que apenas um verdadeiro grifinório pode retirá-la do chapéu seletor."
+      },
+      "C": {
+        "name": "Corvinal",
+        "imgURL": "https://img.ibxk.com.br/2021/04/19/19170352579395.jpg?ims=704x",
+        "description": " A casa da inteligência, sabedoria e criatividade. Os alunos de Corvinal são conhecidos por serem curiosos, perspicazes e astutos. Eles valorizam a sabedoria e o conhecimento, e estão sempre em busca de desafios intelectuais. A casa é associada ao animal Corvo e sua fundadora, Rowena Ravenclaw, é conhecida por ter sido uma bruxa excepcionalmente inteligente."
+      },
+      "L": {
+        "name": "Lufa-Lufa",
+        "imgURL": "https://img.ibxk.com.br/2021/04/19/19170105421393.jpg?ims=704x",
+        "description": "A casa da amizade, lealdade e generosidade. Os alunos de Lufa-Lufa são conhecidos por serem gentis, pacientes e acolhedores. Eles valorizam a amizade e a lealdade, e estão sempre prontos para ajudar os outros. A casa é associada ao animal Texugo e sua fundadora, Helga Hufflepuff, valorizava a igualdade e a diversidade."
+      },
+      "S": {
+        "name": "Sonserina",
+        "imgURL": "https://img.ibxk.com.br/2021/04/19/19170509283396.jpg?ims=704x",
+        "description": "A casa da astúcia, ambição e determinação. Os alunos de Sonserina são conhecidos por serem espertos, ambiciosos e determinados. Eles valorizam a auto-preservação e a sobrevivência, e muitas vezes são considerados individualistas. A casa é associada ao animal Cobra e seu fundador, Salazar Slytherin, valorizava a pureza do sangue e a habilidade mágica."
+      }
     }
-  ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  },
+  {
+    "id": 2,
+    "title": "Qual casa de Hogwarts você seria?",
+    "imgURL": "https://1.bp.blogspot.com/-vkG0CjoS0I0/YG8kU_tQHkI/AAAAAAAADMM/ZZHt3UHGMmoo4TVQ2GfTR2bMoJ20CzV6gCLcBGAsYHQ/s2048/EONb4ENU4AIipTP.jpg",
+    "description": "Você é fã de Harry Potter? Já se perguntou em qual das casas de Hogwarts você se encaixaria? Este quiz foi projetado para ajudá-lo a descobrir se você seria selecionado(a) para a Grifinória, Lufa-Lufa, Corvinal ou Sonserina. Responda as perguntas com cuidado, cada uma delas tem quatro opções de resposta, cada uma com um indicador para ajudar a determinar a casa de Hogwarts que mais combina com você. No final, você receberá sua casa de Hogwarts e uma breve descrição das características da casa e dos alunos que a frequentam. Divirta-se e boa sorte!",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual é a sua atitude em relação a desafios?",
+        "imgURL": "https://media.gettyimages.com/id/471200018/pt/foto/ajudando-a-choques.jpg?s=612x612&w=0&k=20&c=iwmRFi6P6NPOmQSarJ5kkFBoV2FjfukpQHCBVIinEqQ=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Eu gosto de desafios e tento superá-los sempre que possível. ",
+            "alias": "G"
+          },
+          {
+            "id": 2,
+            "name": "Eu sou mais cauteloso e tento pesar as opções antes de agir.",
+            "alias": "C"
+          },
+          {
+            "id": 3,
+            "name": "Eu prefiro evitar desafios sempre que possível.",
+            "alias": "L"
+          },
+          {
+            "id": 4,
+            "name": "Eu gosto de desafios, mas não gosto de assumir riscos desnecessários.",
+            "alias": "S"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual é a sua habilidade mais forte?",
+        "imgURL": "https://media.gettyimages.com/id/1343298668/pt/foto/collage-of-young-woman-multitasking-by-juggling-several-geometric-shapes.jpg?s=612x612&w=0&k=20&c=wyfHN9jINDKiNhXt6RL2-3upFpVWQFXgmufBo6ACfuM=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Inteligência e pensamento crítico.",
+            "alias": "C"
+          },
+          {
+            "id": 2,
+            "name": "Força e habilidade física.",
+            "alias": "G"
+          },
+          {
+            "id": 3,
+            "name": "Astúcia e habilidade de manipulação.",
+            "alias": "S"
+          },
+          {
+            "id": 4,
+            "name": "Empatia e compaixão.",
+            "alias": "L"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual é a sua maior qualidade pessoal?",
+        "imgURL": "https://media.gettyimages.com/id/1301343014/pt/foto/woman-flexing-muscles-in-front-of-superhero-shadow.jpg?s=612x612&w=0&k=20&c=M8n5pPQBgkEB-QV614DkC8zqQn0wS5x40MMYRqfzsdk=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Paciência.",
+            "alias": "L"
+          },
+          {
+            "id": 2,
+            "name": "Coragem.",
+            "alias": "G"
+          },
+          {
+            "id": 3,
+            "name": "Sabedoria.",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Ambição.",
+            "alias": "S"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "O que você valoriza mais em um amigo?",
+        "imgURL": "https://media.gettyimages.com/id/1391836113/pt/foto/three-young-people-sit-around-a-table-and-giggle-as-they-have-a-lighthearted-discussion-and.jpg?s=612x612&w=0&k=20&c=OdqG4UvoUrWtsDDkBJXuzgnTQE65lzgXfuyMFmy_xTA=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Ambição.",
+            "alias": "S"
+          },
+          {
+            "id": 2,
+            "name": "Lealdade.",
+            "alias": "G"
+          },
+          {
+            "id": 3,
+            "name": "Inteligência.",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Sinceridade.",
+            "alias": "L"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Como você lida com desafios emocionais?",
+        "imgURL": "https://media.gettyimages.com/id/655058143/pt/foto/mountain-man-on-a-summit.jpg?s=612x612&w=0&k=20&c=UR2S6UusHRAFhT-tpZmWvrdy-h3urj3G1yigzAH1WG4=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Eu tomo tempo para refletir e entender meus sentimentos antes de agir.",
+            "alias": "C"
+          },
+          {
+            "id": 2,
+            "name": "Eu busco apoio emocional de amigos e familiares.",
+            "alias": "L"
+          },
+          {
+            "id": 3,
+            "name": "Eu lido com desafios emocionais sozinho(a) e não gosto de pedir ajuda.",
+            "alias": "S"
+          },
+          {
+            "id": 4,
+            "name": "Eu enfrento meus problemas de frente e tento resolvê-los rapidamente.",
+            "alias": "G"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Qual é o seu maior medo?",
+        "imgURL": "https://media.gettyimages.com/id/1352020247/pt/foto/sleepless-woman-lying-in-bed-hiding-under-duvet-at-night.jpg?s=612x612&w=0&k=20&c=LVkYVeg0GFZrvhDG9hfRO6Jv99h0yndghKmzZnY2OYo=",
+        "options": [
+          {
+            "id": 1,
+            "name": " Perder a si mesmo(a) ou a seus entes queridos.",
+            "alias": "G"
+          },
+          {
+            "id": 2,
+            "name": "Perder poder ou controle sobre sua vida.",
+            "alias": "S"
+          },
+          {
+            "id": 3,
+            "name": "Ser rejeitado(a) ou abandonado(a).",
+            "alias": "L"
+          },
+          {
+            "id": 4,
+            "name": "Falhar ou tomar uma decisão errada.",
+            "alias": "C"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Qual é o seu tipo de música preferido?",
+        "imgURL": "https://media.gettyimages.com/id/1407003511/pt/foto/woman-playing-guitar-at-music-studio.jpg?s=612x612&w=0&k=20&c=kdC1JrblqybK26quan_we46POWj9jxA9492uiMwKZgw=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Rock ou música clássica.",
+            "alias": "G"
+          },
+          {
+            "id": 2,
+            "name": "Folk ou música acústica.",
+            "alias": "L"
+          },
+          {
+            "id": 3,
+            "name": "Jazz ou música experimental.",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Hip hop ou música eletrônica.",
+            "alias": "S"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Como você se sente em grandes grupos sociais?",
+        "imgURL": "https://media.gettyimages.com/id/1425336452/pt/foto/rear-view-of-tech-entrepreneur-interacting-with-audience-applauding-in-panel-discussion-at.jpg?s=612x612&w=0&k=20&c=Fd2HiEF9P3MWvChHHROuVSgySqvGpgOfvtr6QaiZlDs=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Eu adoro estar no centro das atenções.",
+            "alias": "G"
+          },
+          {
+            "id": 2,
+            "name": "Eu prefiro ficar em pequenos grupos de pessoas que eu conheço bem.",
+            "alias": "C"
+          },
+          {
+            "id": 3,
+            "name": "Eu me sinto confortável em qualquer grupo social. ",
+            "alias": "L"
+          },
+          {
+            "id": 4,
+            "name": "Eu gosto de observar as pessoas antes de me juntar a um grupo.",
+            "alias": "S"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Qual atividade você mais gosta de fazer no seu tempo livre?",
+        "imgURL": "https://media.gettyimages.com/id/509403985/pt/foto/woman-chasing-man-while-riding-bicycle.jpg?s=612x612&w=0&k=20&c=0Ptovyd-dY3WbcOPVvrrCxPH9ZSvO7nd9-yLHm0Pxns=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Praticar esportes.",
+            "alias": "G"
+          },
+          {
+            "id": 2,
+            "name": "Assistir filmes e séries.",
+            "alias": "S"
+          },
+          {
+            "id": 3,
+            "name": "Ler livros.",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Passar tempo com amigos e família.",
+            "alias": "L"
+          }
+        ]
+      }
+    ],
+    "results": {
+      "G": {
+        "name": "Grifinória",
+        "imgURL": "https://img.ibxk.com.br/2021/04/19/19165615261383.jpg?ims=704x",
+        "description": "A casa da coragem, bravura e determinação. Os alunos de Grifinória são conhecidos por serem destemidos, leais e protetores. Eles valorizam a amizade e a justiça, e estão sempre dispostos a ajudar os outros. A espada de Godric Gryffindor é um símbolo importante da casa, e é dito que apenas um verdadeiro grifinório pode retirá-la do chapéu seletor."
+      },
+      "C": {
+        "name": "Corvinal",
+        "imgURL": "https://img.ibxk.com.br/2021/04/19/19170352579395.jpg?ims=704x",
+        "description": " A casa da inteligência, sabedoria e criatividade. Os alunos de Corvinal são conhecidos por serem curiosos, perspicazes e astutos. Eles valorizam a sabedoria e o conhecimento, e estão sempre em busca de desafios intelectuais. A casa é associada ao animal Corvo e sua fundadora, Rowena Ravenclaw, é conhecida por ter sido uma bruxa excepcionalmente inteligente."
+      },
+      "L": {
+        "name": "Lufa-Lufa",
+        "imgURL": "https://img.ibxk.com.br/2021/04/19/19170105421393.jpg?ims=704x",
+        "description": "A casa da amizade, lealdade e generosidade. Os alunos de Lufa-Lufa são conhecidos por serem gentis, pacientes e acolhedores. Eles valorizam a amizade e a lealdade, e estão sempre prontos para ajudar os outros. A casa é associada ao animal Texugo e sua fundadora, Helga Hufflepuff, valorizava a igualdade e a diversidade."
+      },
+      "S": {
+        "name": "Sonserina",
+        "imgURL": "https://img.ibxk.com.br/2021/04/19/19170509283396.jpg?ims=704x",
+        "description": "A casa da astúcia, ambição e determinação. Os alunos de Sonserina são conhecidos por serem espertos, ambiciosos e determinados. Eles valorizam a auto-preservação e a sobrevivência, e muitas vezes são considerados individualistas. A casa é associada ao animal Cobra e seu fundador, Salazar Slytherin, valorizava a pureza do sangue e a habilidade mágica."
+      }
+    }
+  },
+  {
+    "id": 3,
+    "title": "Qual casa de Hogwarts você seria?",
+    "imgURL": "https://1.bp.blogspot.com/-vkG0CjoS0I0/YG8kU_tQHkI/AAAAAAAADMM/ZZHt3UHGMmoo4TVQ2GfTR2bMoJ20CzV6gCLcBGAsYHQ/s2048/EONb4ENU4AIipTP.jpg",
+    "description": "Você é fã de Harry Potter? Já se perguntou em qual das casas de Hogwarts você se encaixaria? Este quiz foi projetado para ajudá-lo a descobrir se você seria selecionado(a) para a Grifinória, Lufa-Lufa, Corvinal ou Sonserina. Responda as perguntas com cuidado, cada uma delas tem quatro opções de resposta, cada uma com um indicador para ajudar a determinar a casa de Hogwarts que mais combina com você. No final, você receberá sua casa de Hogwarts e uma breve descrição das características da casa e dos alunos que a frequentam. Divirta-se e boa sorte!",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual é a sua atitude em relação a desafios?",
+        "imgURL": "https://media.gettyimages.com/id/471200018/pt/foto/ajudando-a-choques.jpg?s=612x612&w=0&k=20&c=iwmRFi6P6NPOmQSarJ5kkFBoV2FjfukpQHCBVIinEqQ=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Eu gosto de desafios e tento superá-los sempre que possível. ",
+            "alias": "G"
+          },
+          {
+            "id": 2,
+            "name": "Eu sou mais cauteloso e tento pesar as opções antes de agir.",
+            "alias": "C"
+          },
+          {
+            "id": 3,
+            "name": "Eu prefiro evitar desafios sempre que possível.",
+            "alias": "L"
+          },
+          {
+            "id": 4,
+            "name": "Eu gosto de desafios, mas não gosto de assumir riscos desnecessários.",
+            "alias": "S"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual é a sua habilidade mais forte?",
+        "imgURL": "https://media.gettyimages.com/id/1343298668/pt/foto/collage-of-young-woman-multitasking-by-juggling-several-geometric-shapes.jpg?s=612x612&w=0&k=20&c=wyfHN9jINDKiNhXt6RL2-3upFpVWQFXgmufBo6ACfuM=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Inteligência e pensamento crítico.",
+            "alias": "C"
+          },
+          {
+            "id": 2,
+            "name": "Força e habilidade física.",
+            "alias": "G"
+          },
+          {
+            "id": 3,
+            "name": "Astúcia e habilidade de manipulação.",
+            "alias": "S"
+          },
+          {
+            "id": 4,
+            "name": "Empatia e compaixão.",
+            "alias": "L"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual é a sua maior qualidade pessoal?",
+        "imgURL": "https://media.gettyimages.com/id/1301343014/pt/foto/woman-flexing-muscles-in-front-of-superhero-shadow.jpg?s=612x612&w=0&k=20&c=M8n5pPQBgkEB-QV614DkC8zqQn0wS5x40MMYRqfzsdk=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Paciência.",
+            "alias": "L"
+          },
+          {
+            "id": 2,
+            "name": "Coragem.",
+            "alias": "G"
+          },
+          {
+            "id": 3,
+            "name": "Sabedoria.",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Ambição.",
+            "alias": "S"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "O que você valoriza mais em um amigo?",
+        "imgURL": "https://media.gettyimages.com/id/1391836113/pt/foto/three-young-people-sit-around-a-table-and-giggle-as-they-have-a-lighthearted-discussion-and.jpg?s=612x612&w=0&k=20&c=OdqG4UvoUrWtsDDkBJXuzgnTQE65lzgXfuyMFmy_xTA=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Ambição.",
+            "alias": "S"
+          },
+          {
+            "id": 2,
+            "name": "Lealdade.",
+            "alias": "G"
+          },
+          {
+            "id": 3,
+            "name": "Inteligência.",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Sinceridade.",
+            "alias": "L"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Como você lida com desafios emocionais?",
+        "imgURL": "https://media.gettyimages.com/id/655058143/pt/foto/mountain-man-on-a-summit.jpg?s=612x612&w=0&k=20&c=UR2S6UusHRAFhT-tpZmWvrdy-h3urj3G1yigzAH1WG4=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Eu tomo tempo para refletir e entender meus sentimentos antes de agir.",
+            "alias": "C"
+          },
+          {
+            "id": 2,
+            "name": "Eu busco apoio emocional de amigos e familiares.",
+            "alias": "L"
+          },
+          {
+            "id": 3,
+            "name": "Eu lido com desafios emocionais sozinho(a) e não gosto de pedir ajuda.",
+            "alias": "S"
+          },
+          {
+            "id": 4,
+            "name": "Eu enfrento meus problemas de frente e tento resolvê-los rapidamente.",
+            "alias": "G"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Qual é o seu maior medo?",
+        "imgURL": "https://media.gettyimages.com/id/1352020247/pt/foto/sleepless-woman-lying-in-bed-hiding-under-duvet-at-night.jpg?s=612x612&w=0&k=20&c=LVkYVeg0GFZrvhDG9hfRO6Jv99h0yndghKmzZnY2OYo=",
+        "options": [
+          {
+            "id": 1,
+            "name": " Perder a si mesmo(a) ou a seus entes queridos.",
+            "alias": "G"
+          },
+          {
+            "id": 2,
+            "name": "Perder poder ou controle sobre sua vida.",
+            "alias": "S"
+          },
+          {
+            "id": 3,
+            "name": "Ser rejeitado(a) ou abandonado(a).",
+            "alias": "L"
+          },
+          {
+            "id": 4,
+            "name": "Falhar ou tomar uma decisão errada.",
+            "alias": "C"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Qual é o seu tipo de música preferido?",
+        "imgURL": "https://media.gettyimages.com/id/1407003511/pt/foto/woman-playing-guitar-at-music-studio.jpg?s=612x612&w=0&k=20&c=kdC1JrblqybK26quan_we46POWj9jxA9492uiMwKZgw=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Rock ou música clássica.",
+            "alias": "G"
+          },
+          {
+            "id": 2,
+            "name": "Folk ou música acústica.",
+            "alias": "L"
+          },
+          {
+            "id": 3,
+            "name": "Jazz ou música experimental.",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Hip hop ou música eletrônica.",
+            "alias": "S"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Como você se sente em grandes grupos sociais?",
+        "imgURL": "https://media.gettyimages.com/id/1425336452/pt/foto/rear-view-of-tech-entrepreneur-interacting-with-audience-applauding-in-panel-discussion-at.jpg?s=612x612&w=0&k=20&c=Fd2HiEF9P3MWvChHHROuVSgySqvGpgOfvtr6QaiZlDs=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Eu adoro estar no centro das atenções.",
+            "alias": "G"
+          },
+          {
+            "id": 2,
+            "name": "Eu prefiro ficar em pequenos grupos de pessoas que eu conheço bem.",
+            "alias": "C"
+          },
+          {
+            "id": 3,
+            "name": "Eu me sinto confortável em qualquer grupo social. ",
+            "alias": "L"
+          },
+          {
+            "id": 4,
+            "name": "Eu gosto de observar as pessoas antes de me juntar a um grupo.",
+            "alias": "S"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Qual atividade você mais gosta de fazer no seu tempo livre?",
+        "imgURL": "https://media.gettyimages.com/id/509403985/pt/foto/woman-chasing-man-while-riding-bicycle.jpg?s=612x612&w=0&k=20&c=0Ptovyd-dY3WbcOPVvrrCxPH9ZSvO7nd9-yLHm0Pxns=",
+        "options": [
+          {
+            "id": 1,
+            "name": "Praticar esportes.",
+            "alias": "G"
+          },
+          {
+            "id": 2,
+            "name": "Assistir filmes e séries.",
+            "alias": "S"
+          },
+          {
+            "id": 3,
+            "name": "Ler livros.",
+            "alias": "C"
+          },
+          {
+            "id": 4,
+            "name": "Passar tempo com amigos e família.",
+            "alias": "L"
+          }
+        ]
+      }
+    ],
+    "results": {
+      "G": {
+        "name": "Grifinória",
+        "imgURL": "https://img.ibxk.com.br/2021/04/19/19165615261383.jpg?ims=704x",
+        "description": "A casa da coragem, bravura e determinação. Os alunos de Grifinória são conhecidos por serem destemidos, leais e protetores. Eles valorizam a amizade e a justiça, e estão sempre dispostos a ajudar os outros. A espada de Godric Gryffindor é um símbolo importante da casa, e é dito que apenas um verdadeiro grifinório pode retirá-la do chapéu seletor."
+      },
+      "C": {
+        "name": "Corvinal",
+        "imgURL": "https://img.ibxk.com.br/2021/04/19/19170352579395.jpg?ims=704x",
+        "description": " A casa da inteligência, sabedoria e criatividade. Os alunos de Corvinal são conhecidos por serem curiosos, perspicazes e astutos. Eles valorizam a sabedoria e o conhecimento, e estão sempre em busca de desafios intelectuais. A casa é associada ao animal Corvo e sua fundadora, Rowena Ravenclaw, é conhecida por ter sido uma bruxa excepcionalmente inteligente."
+      },
+      "L": {
+        "name": "Lufa-Lufa",
+        "imgURL": "https://img.ibxk.com.br/2021/04/19/19170105421393.jpg?ims=704x",
+        "description": "A casa da amizade, lealdade e generosidade. Os alunos de Lufa-Lufa são conhecidos por serem gentis, pacientes e acolhedores. Eles valorizam a amizade e a lealdade, e estão sempre prontos para ajudar os outros. A casa é associada ao animal Texugo e sua fundadora, Helga Hufflepuff, valorizava a igualdade e a diversidade."
+      },
+      "S": {
+        "name": "Sonserina",
+        "imgURL": "https://img.ibxk.com.br/2021/04/19/19170509283396.jpg?ims=704x",
+        "description": "A casa da astúcia, ambição e determinação. Os alunos de Sonserina são conhecidos por serem espertos, ambiciosos e determinados. Eles valorizam a auto-preservação e a sobrevivência, e muitas vezes são considerados individualistas. A casa é associada ao animal Cobra e seu fundador, Salazar Slytherin, valorizava a pureza do sangue e a habilidade mágica."
+      }
+    }
   }
-}
+]

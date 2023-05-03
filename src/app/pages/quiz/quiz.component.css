@@ -1,0 +1,97 @@
+.quiz-container {
+  margin: 0 auto;
+}
+
+.quiz-container img {
+  width: 100%;
+  max-width: 480px;
+}
+
+app-card {
+  text-align: center;
+}
+
+h3.title-quiz {
+  margin-bottom: 1em;
+}
+
+.question {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-header {
+  position: relative;
+}
+
+.question-header>h3 {
+  position: absolute;
+  top: 0;
+  padding: 0 1em;
+  height: 100%;
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, .5);
+}
+
+.options {
+  width: 100%;
+  max-width: 480px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+  margin: 1em 0;
+}
+
+.option-container {
+  padding: 1em 0.5em;
+  background-color: #aa00ff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.disable {
+  padding: 1em 0.5em;
+  background-color: #757575;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.player-choose {
+  padding: 1em 0.5em;
+  background-color: #01579b;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.option-container:hover {
+  background-color: #4a148c;
+}
+
+.option-container > button {
+  background: transparent;
+  border: none;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.option-container > div {
+  background: transparent;
+  border: none;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 552px) {
+  .options {
+    grid-template-columns: 1fr 1fr;
+  }
+}
