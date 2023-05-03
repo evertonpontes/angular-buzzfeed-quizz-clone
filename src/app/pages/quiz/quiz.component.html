@@ -9,6 +9,9 @@
           src={{quizzType.imgURL}}
           alt="">
       </div>
+      <a class="navigate" [routerLink]="['/']">
+        voltar para home
+      </a>
     </app-card>
     <app-card>
       <p class="description">
@@ -50,11 +53,8 @@
         <p>
           {{result.description}}
         </p>
-        <button>Jogar novamente?</button>
+        <button class="reset" (click)="reset()" >Jogar novamente?</button>
       </div>
     </app-card>
-    <a [routerLink]="['/']">
-      voltar para home
-    </a>
   </div>
 </div>

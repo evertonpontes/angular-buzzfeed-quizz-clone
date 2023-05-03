@@ -274,547 +274,522 @@
   },
   {
     "id": 2,
-    "title": "Qual casa de Hogwarts você seria?",
-    "imgURL": "https://1.bp.blogspot.com/-vkG0CjoS0I0/YG8kU_tQHkI/AAAAAAAADMM/ZZHt3UHGMmoo4TVQ2GfTR2bMoJ20CzV6gCLcBGAsYHQ/s2048/EONb4ENU4AIipTP.jpg",
-    "description": "Você é fã de Harry Potter? Já se perguntou em qual das casas de Hogwarts você se encaixaria? Este quiz foi projetado para ajudá-lo a descobrir se você seria selecionado(a) para a Grifinória, Lufa-Lufa, Corvinal ou Sonserina. Responda as perguntas com cuidado, cada uma delas tem quatro opções de resposta, cada uma com um indicador para ajudar a determinar a casa de Hogwarts que mais combina com você. No final, você receberá sua casa de Hogwarts e uma breve descrição das características da casa e dos alunos que a frequentam. Divirta-se e boa sorte!",
+    "title": "Qual seria o seu animal de estimação ideal?",
+    "imgURL": "https://media.gettyimages.com/id/107072782/pt/foto/portrait-of-cats-and-dogs-sitting-together.jpg?s=612x612&w=0&k=20&c=UgBmZfcgRJVr4QjtUNQmhgmNmcPfX4uO6IykFxRLCRI=",
+    "description": "Você já se perguntou qual seria o animal de estimação perfeito para você? Descubra com nosso quiz divertido! Responda a perguntas sobre sua personalidade, hábitos e preferências para descobrir se você é mais parecido com um cachorro amigável, um gato independente, um pássaro divertido, um hamster fofo, um peixe tranquilo ou um coelho brincalhão.",
     "questions": [
       {
         "id": 1,
-        "question": "Qual é a sua atitude em relação a desafios?",
-        "imgURL": "https://media.gettyimages.com/id/471200018/pt/foto/ajudando-a-choques.jpg?s=612x612&w=0&k=20&c=iwmRFi6P6NPOmQSarJ5kkFBoV2FjfukpQHCBVIinEqQ=",
+        "question": "Qual é o seu lugar favorito para passar o tempo livre?",
+        "imgURL": "https://media.gettyimages.com/id/1320466432/pt/foto/woman-photographing-the-sunset-from-the-rood-of-her-campervan.jpg?s=612x612&w=0&k=20&c=hihXTDLhvhC1VYU6rGzSOpLm4xBAPuHyKbwBmkGx7Zk=",
         "options": [
           {
             "id": 1,
-            "name": "Eu gosto de desafios e tento superá-los sempre que possível. ",
-            "alias": "G"
-          },
-          {
-            "id": 2,
-            "name": "Eu sou mais cauteloso e tento pesar as opções antes de agir.",
+            "name": "Em casa, assistindo TV ou lendo um livro.",
             "alias": "C"
           },
           {
+            "id": 2,
+            "name": "Em um parque ou na natureza.",
+            "alias": "A"
+          },
+          {
             "id": 3,
-            "name": "Eu prefiro evitar desafios sempre que possível.",
-            "alias": "L"
+            "name": "Em um café ou restaurante com amigos.",
+            "alias": "E"
           },
           {
             "id": 4,
-            "name": "Eu gosto de desafios, mas não gosto de assumir riscos desnecessários.",
-            "alias": "S"
+            "name": "Em um estádio ou em um evento esportivo.",
+            "alias": "D"
+          },
+          {
+            "id": 5,
+            "name": "Na praia ou piscina.",
+            "alias": "B"
           }
         ]
       },
       {
         "id": 2,
-        "question": "Qual é a sua habilidade mais forte?",
-        "imgURL": "https://media.gettyimages.com/id/1343298668/pt/foto/collage-of-young-woman-multitasking-by-juggling-several-geometric-shapes.jpg?s=612x612&w=0&k=20&c=wyfHN9jINDKiNhXt6RL2-3upFpVWQFXgmufBo6ACfuM=",
+        "question": "Qual é a sua rotina de exercícios?",
+        "imgURL": "https://media.gettyimages.com/id/1422543679/pt/foto/smiling-male-fitness-instructor-practicing-dumbbell-exercise-with-men-in-gym.jpg?s=612x612&w=0&k=20&c=fm9U6rmc_3p9tPB5FOr_1QuHVf97llrrRWX-UZjmsB4=",
         "options": [
           {
             "id": 1,
-            "name": "Inteligência e pensamento crítico.",
-            "alias": "C"
+            "name": "Yoga ou meditação.",
+            "alias": "B"
           },
           {
             "id": 2,
-            "name": "Força e habilidade física.",
-            "alias": "G"
+            "name": "Caminhadas ou trilhas.",
+            "alias": "A"
           },
           {
             "id": 3,
-            "name": "Astúcia e habilidade de manipulação.",
-            "alias": "S"
+            "name": "Academia ou musculação.",
+            "alias": "D"
           },
           {
             "id": 4,
-            "name": "Empatia e compaixão.",
-            "alias": "L"
+            "name": "Esportes em equipe ou atividades coletivas.",
+            "alias": "E"
+          },
+          {
+            "id": 5,
+            "name": "Dança ou atividades aeróbicas.",
+            "alias": "C"
           }
         ]
       },
       {
         "id": 3,
-        "question": "Qual é a sua maior qualidade pessoal?",
-        "imgURL": "https://media.gettyimages.com/id/1301343014/pt/foto/woman-flexing-muscles-in-front-of-superhero-shadow.jpg?s=612x612&w=0&k=20&c=M8n5pPQBgkEB-QV614DkC8zqQn0wS5x40MMYRqfzsdk=",
+        "question": "Como você prefere passar suas férias?",
+        "imgURL": "https://media.gettyimages.com/id/1404705549/pt/foto/woman-in-infinity-pool-admiring-scenic-view.jpg?s=612x612&w=0&k=20&c=p7g95ngVLFniuOZWc_A1hTnJ9L5ucZuRdUBnD4jFnjI=",
         "options": [
           {
             "id": 1,
-            "name": "Paciência.",
-            "alias": "L"
+            "name": "Em um retiro de yoga ou spa.",
+            "alias": "B"
           },
           {
             "id": 2,
-            "name": "Coragem.",
-            "alias": "G"
+            "name": "Fazendo trilhas ou acampando.",
+            "alias": "A"
           },
           {
             "id": 3,
-            "name": "Sabedoria.",
+            "name": "Visitando museus e exposições.",
             "alias": "C"
           },
           {
             "id": 4,
-            "name": "Ambição.",
-            "alias": "S"
+            "name": "Participando de atividades esportivas ou eventos.",
+            "alias": "D"
+          },
+          {
+            "id": 5,
+            "name": "Relaxando em uma praia ou em um resort.",
+            "alias": "E"
           }
         ]
       },
       {
         "id": 4,
-        "question": "O que você valoriza mais em um amigo?",
-        "imgURL": "https://media.gettyimages.com/id/1391836113/pt/foto/three-young-people-sit-around-a-table-and-giggle-as-they-have-a-lighthearted-discussion-and.jpg?s=612x612&w=0&k=20&c=OdqG4UvoUrWtsDDkBJXuzgnTQE65lzgXfuyMFmy_xTA=",
+        "question": "Qual é a sua comida favorita?",
+        "imgURL": "https://media.gettyimages.com/id/1351413396/pt/foto/scene-at-a-table-with-a-couple-enjoying-lunch-at-a-vegan-cafe.jpg?s=612x612&w=0&k=20&c=X7blZxPJ7U89i3dVMbt1ED-gOBWGleuXMdWZAifFHMc=",
         "options": [
           {
             "id": 1,
-            "name": "Ambição.",
-            "alias": "S"
+            "name": "Comidas vegetarianas ou veganas.",
+            "alias": "B"
           },
           {
             "id": 2,
-            "name": "Lealdade.",
-            "alias": "G"
+            "name": "Frutas e verduras frescas.",
+            "alias": "A"
           },
           {
             "id": 3,
-            "name": "Inteligência.",
+            "name": "Pratos sofisticados e elaborados.",
             "alias": "C"
           },
           {
             "id": 4,
-            "name": "Sinceridade.",
-            "alias": "L"
+            "name": "Comidas rápidas e práticas.",
+            "alias": "E"
+          },
+          {
+            "id": 5,
+            "name": "Comidas típicas de outros países ou culturas.",
+            "alias": "D"
           }
         ]
       },
       {
         "id": 5,
-        "question": "Como você lida com desafios emocionais?",
-        "imgURL": "https://media.gettyimages.com/id/655058143/pt/foto/mountain-man-on-a-summit.jpg?s=612x612&w=0&k=20&c=UR2S6UusHRAFhT-tpZmWvrdy-h3urj3G1yigzAH1WG4=",
+        "question": "Qual é o seu estilo de decoração preferido?",
+        "imgURL": "https://media.gettyimages.com/id/1334902857/pt/foto/living-room-in-retro-style.jpg?s=612x612&w=0&k=20&c=PGZ0BpfbVJ3qhk7lZyFa794bY8g1hULza5HTeWZTmPw=",
         "options": [
           {
             "id": 1,
-            "name": "Eu tomo tempo para refletir e entender meus sentimentos antes de agir.",
-            "alias": "C"
+            "name": "Minimalista e natural.",
+            "alias": "A"
           },
           {
             "id": 2,
-            "name": "Eu busco apoio emocional de amigos e familiares.",
-            "alias": "L"
+            "name": "Zen e tranquilo.",
+            "alias": "B"
           },
           {
             "id": 3,
-            "name": "Eu lido com desafios emocionais sozinho(a) e não gosto de pedir ajuda.",
-            "alias": "S"
+            "name": "Elegante e sofisticado.",
+            "alias": "C"
           },
           {
             "id": 4,
-            "name": "Eu enfrento meus problemas de frente e tento resolvê-los rapidamente.",
-            "alias": "G"
+            "name": "Prático e moderno.",
+            "alias": "E"
+          },
+          {
+            "id": 5,
+            "name": "Colorido e divertido.",
+            "alias": "D"
           }
         ]
       },
       {
         "id": 6,
-        "question": "Qual é o seu maior medo?",
-        "imgURL": "https://media.gettyimages.com/id/1352020247/pt/foto/sleepless-woman-lying-in-bed-hiding-under-duvet-at-night.jpg?s=612x612&w=0&k=20&c=LVkYVeg0GFZrvhDG9hfRO6Jv99h0yndghKmzZnY2OYo=",
+        "question": "Como você prefere passar as noites?",
+        "imgURL": "https://media.gettyimages.com/id/1370513049/pt/foto/milky-way-at-doi-inthanon-national-park-chiang-mai-thailand.jpg?s=612x612&w=0&k=20&c=5vYuiqTh71XvVRFADdf-6mIBXtJdv2Vbmy5SWrcpMgM=",
         "options": [
           {
             "id": 1,
-            "name": " Perder a si mesmo(a) ou a seus entes queridos.",
-            "alias": "G"
+            "name": "Dormindo em uma cama confortável.",
+            "alias": "A"
           },
           {
             "id": 2,
-            "name": "Perder poder ou controle sobre sua vida.",
-            "alias": "S"
+            "name": "Meditando ou lendo um livro.",
+            "alias": "B"
           },
           {
             "id": 3,
-            "name": "Ser rejeitado(a) ou abandonado(a).",
-            "alias": "L"
+            "name": "Assistindo filmes ou séries.",
+            "alias": "C"
           },
           {
             "id": 4,
-            "name": "Falhar ou tomar uma decisão errada.",
-            "alias": "C"
+            "name": "Fazendo exercícios ou atividades físicas.",
+            "alias": "D"
+          },
+          {
+            "id": 5,
+            "name": "Saindo para bares ou festas.",
+            "alias": "E"
           }
         ]
       },
       {
         "id": 7,
-        "question": "Qual é o seu tipo de música preferido?",
-        "imgURL": "https://media.gettyimages.com/id/1407003511/pt/foto/woman-playing-guitar-at-music-studio.jpg?s=612x612&w=0&k=20&c=kdC1JrblqybK26quan_we46POWj9jxA9492uiMwKZgw=",
+        "question": "Qual é o seu tipo de personalidade?",
+        "imgURL": "https://media.gettyimages.com/id/1333933118/pt/foto/young-women-rollerskating-in-urban-area.jpg?s=612x612&w=0&k=20&c=tVKQw_2bCt6ASJ0pXpoIzcz8epl70OO8tDsQim_jhYQ=",
         "options": [
           {
             "id": 1,
-            "name": "Rock ou música clássica.",
-            "alias": "G"
+            "name": "Tranquilo e reservado.",
+            "alias": "B"
           },
           {
             "id": 2,
-            "name": "Folk ou música acústica.",
-            "alias": "L"
+            "name": "Aventureiro e destemido.",
+            "alias": "A"
           },
           {
             "id": 3,
-            "name": "Jazz ou música experimental.",
+            "name": "Criativo e intelectual.",
             "alias": "C"
           },
           {
             "id": 4,
-            "name": "Hip hop ou música eletrônica.",
-            "alias": "S"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "question": "Como você se sente em grandes grupos sociais?",
-        "imgURL": "https://media.gettyimages.com/id/1425336452/pt/foto/rear-view-of-tech-entrepreneur-interacting-with-audience-applauding-in-panel-discussion-at.jpg?s=612x612&w=0&k=20&c=Fd2HiEF9P3MWvChHHROuVSgySqvGpgOfvtr6QaiZlDs=",
-        "options": [
-          {
-            "id": 1,
-            "name": "Eu adoro estar no centro das atenções.",
-            "alias": "G"
+            "name": "Competitivo e enérgico.",
+            "alias": "D"
           },
           {
-            "id": 2,
-            "name": "Eu prefiro ficar em pequenos grupos de pessoas que eu conheço bem.",
-            "alias": "C"
-          },
-          {
-            "id": 3,
-            "name": "Eu me sinto confortável em qualquer grupo social. ",
-            "alias": "L"
-          },
-          {
-            "id": 4,
-            "name": "Eu gosto de observar as pessoas antes de me juntar a um grupo.",
-            "alias": "S"
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "question": "Qual atividade você mais gosta de fazer no seu tempo livre?",
-        "imgURL": "https://media.gettyimages.com/id/509403985/pt/foto/woman-chasing-man-while-riding-bicycle.jpg?s=612x612&w=0&k=20&c=0Ptovyd-dY3WbcOPVvrrCxPH9ZSvO7nd9-yLHm0Pxns=",
-        "options": [
-          {
-            "id": 1,
-            "name": "Praticar esportes.",
-            "alias": "G"
-          },
-          {
-            "id": 2,
-            "name": "Assistir filmes e séries.",
-            "alias": "S"
-          },
-          {
-            "id": 3,
-            "name": "Ler livros.",
-            "alias": "C"
-          },
-          {
-            "id": 4,
-            "name": "Passar tempo com amigos e família.",
-            "alias": "L"
+            "id": 5,
+            "name": "Extrovertido e sociável.",
+            "alias": "E"
           }
         ]
       }
     ],
     "results": {
-      "G": {
-        "name": "Grifinória",
-        "imgURL": "https://img.ibxk.com.br/2021/04/19/19165615261383.jpg?ims=704x",
-        "description": "A casa da coragem, bravura e determinação. Os alunos de Grifinória são conhecidos por serem destemidos, leais e protetores. Eles valorizam a amizade e a justiça, e estão sempre dispostos a ajudar os outros. A espada de Godric Gryffindor é um símbolo importante da casa, e é dito que apenas um verdadeiro grifinório pode retirá-la do chapéu seletor."
+      "A": {
+        "name": "Cachorro",
+        "imgURL": "https://media.gettyimages.com/id/1417994961/pt/foto/golden-retriever-looking-sad.jpg?s=612x612&w=0&k=20&c=98FY1gKyHW5u1XjzhS5AywDVYc1spihFk9_VGKbn7Rc=",
+        "description": "Você é uma pessoa leal, amigável e sempre disposta a ajudar os outros. Assim como um cachorro, você ama estar perto de pessoas que ama e é conhecido por ser um grande companheiro. Você tem muita energia e gosta de passar tempo ao ar livre, fazendo exercícios e explorando novos lugares."
+      },
+      "B": {
+        "name": "Gato",
+        "imgURL": "https://media.gettyimages.com/id/1367808844/pt/foto/beautiful-ginger-cat-with-green-eyes-licking-paw-while-laying-on-wooden-floor-at-blurred.jpg?s=612x612&w=0&k=20&c=yuImeZFSfREvlDo4Dsx015MJqq_-hMD0BFiHr6Mld7Y=",
+        "description": "Você é uma pessoa independente, astuta e que preza muito a liberdade. Assim como um gato, você tem um forte senso de auto-suficiência e é muito perspicaz em relação ao mundo ao seu redor. Você gosta de ter seu próprio espaço e tempo para si mesmo, mas quando quer, também é muito carinhoso e afetuoso."
       },
       "C": {
-        "name": "Corvinal",
-        "imgURL": "https://img.ibxk.com.br/2021/04/19/19170352579395.jpg?ims=704x",
-        "description": " A casa da inteligência, sabedoria e criatividade. Os alunos de Corvinal são conhecidos por serem curiosos, perspicazes e astutos. Eles valorizam a sabedoria e o conhecimento, e estão sempre em busca de desafios intelectuais. A casa é associada ao animal Corvo e sua fundadora, Rowena Ravenclaw, é conhecida por ter sido uma bruxa excepcionalmente inteligente."
+        "name": "Pássaro",
+        "imgURL": "https://media.gettyimages.com/id/1439043758/pt/foto/close-up-of-songtanager-perching-on-branch-brazil.jpg?s=612x612&w=0&k=20&c=CHuDsxzgSELGcqwvWnqgZQJ12rC2FolBEnXBlvdESuU=",
+        "description": "Você é uma pessoa alegre, divertida e sempre pronta para experimentar coisas novas. Assim como um pássaro, você ama explorar e se aventurar por lugares diferentes, experimentando coisas novas e descobrindo o mundo ao seu redor. Você é conhecido por sua personalidade vibrante e divertida, que encanta todos ao seu redor."
       },
-      "L": {
-        "name": "Lufa-Lufa",
-        "imgURL": "https://img.ibxk.com.br/2021/04/19/19170105421393.jpg?ims=704x",
-        "description": "A casa da amizade, lealdade e generosidade. Os alunos de Lufa-Lufa são conhecidos por serem gentis, pacientes e acolhedores. Eles valorizam a amizade e a lealdade, e estão sempre prontos para ajudar os outros. A casa é associada ao animal Texugo e sua fundadora, Helga Hufflepuff, valorizava a igualdade e a diversidade."
+      "D": {
+        "name": "Peixe",
+        "imgURL": "https://media.gettyimages.com/id/a0047-000046/pt/foto/goldfish.jpg?s=612x612&w=0&k=20&c=RWWDscf0zeW9mEjrFxJWKFSVLGmL92_U8NT8dfiahKQ=",
+        "description": "Você é uma pessoa tranquila, pacífica e que valoriza muito a harmonia e a tranquilidade. Assim como um peixe, você é capaz de encontrar paz e felicidade em momentos simples e tranquilos, e gosta de passar tempo em lugares calmos e serenos. Você é conhecido por sua natureza calma e serena, e é uma pessoa muito reflexiva e introspectiva."
       },
-      "S": {
-        "name": "Sonserina",
-        "imgURL": "https://img.ibxk.com.br/2021/04/19/19170509283396.jpg?ims=704x",
-        "description": "A casa da astúcia, ambição e determinação. Os alunos de Sonserina são conhecidos por serem espertos, ambiciosos e determinados. Eles valorizam a auto-preservação e a sobrevivência, e muitas vezes são considerados individualistas. A casa é associada ao animal Cobra e seu fundador, Salazar Slytherin, valorizava a pureza do sangue e a habilidade mágica."
+      "E": {
+        "name": "Coelho",
+        "imgURL": "https://media.gettyimages.com/id/10141355/pt/foto/brown-and-gray-bunnies.jpg?s=612x612&w=0&k=20&c=VDmp9y5krxatR1p5M8FswXOFmQRYCBtguzCcJdFh6t0=",
+        "description": "Você é uma pessoa brincalhona, adorável e que sempre traz alegria para as pessoas ao seu redor. Assim como um coelho, você é conhecido por sua personalidade animada e enérgica, e adora se divertir e fazer piadas. Você é muito carinhoso e afetuoso com as pessoas que ama, e gosta de estar perto de amigos e familiares."
       }
     }
   },
   {
     "id": 3,
-    "title": "Qual casa de Hogwarts você seria?",
-    "imgURL": "https://1.bp.blogspot.com/-vkG0CjoS0I0/YG8kU_tQHkI/AAAAAAAADMM/ZZHt3UHGMmoo4TVQ2GfTR2bMoJ20CzV6gCLcBGAsYHQ/s2048/EONb4ENU4AIipTP.jpg",
-    "description": "Você é fã de Harry Potter? Já se perguntou em qual das casas de Hogwarts você se encaixaria? Este quiz foi projetado para ajudá-lo a descobrir se você seria selecionado(a) para a Grifinória, Lufa-Lufa, Corvinal ou Sonserina. Responda as perguntas com cuidado, cada uma delas tem quatro opções de resposta, cada uma com um indicador para ajudar a determinar a casa de Hogwarts que mais combina com você. No final, você receberá sua casa de Hogwarts e uma breve descrição das características da casa e dos alunos que a frequentam. Divirta-se e boa sorte!",
+    "title": "Descubra sua verdadeira idade",
+    "imgURL": "https://media.gettyimages.com/id/465083677/pt/foto/young-woman-with-photo-of-aged-eye-over-her-own.jpg?s=612x612&w=0&k=20&c=mpuckoUL3ApBc7FdSqumCFOnjevzIWAvLRF1xDLkwks=",
+    "description": "Você já se perguntou se sua idade cronológica corresponde à sua idade mental? Descubra agora neste divertido quiz qual é a sua verdadeira idade!",
     "questions": [
       {
         "id": 1,
-        "question": "Qual é a sua atitude em relação a desafios?",
-        "imgURL": "https://media.gettyimages.com/id/471200018/pt/foto/ajudando-a-choques.jpg?s=612x612&w=0&k=20&c=iwmRFi6P6NPOmQSarJ5kkFBoV2FjfukpQHCBVIinEqQ=",
+        "question": "Qual é o seu hobby preferido?",
+        "imgURL": "https://media.gettyimages.com/id/651582933/pt/foto/a-femail-artist-in-her-studio.jpg?s=612x612&w=0&k=20&c=goTH5-cUlgo29GQWW2d5s1eVjU9cZUFuryuDHbvu_Lg=",
         "options": [
           {
             "id": 1,
-            "name": "Eu gosto de desafios e tento superá-los sempre que possível. ",
-            "alias": "G"
+            "name": "Ler",
+            "alias": "A"
           },
           {
             "id": 2,
-            "name": "Eu sou mais cauteloso e tento pesar as opções antes de agir.",
-            "alias": "C"
+            "name": "Assistir filmes/séries",
+            "alias": "B"
           },
           {
             "id": 3,
-            "name": "Eu prefiro evitar desafios sempre que possível.",
-            "alias": "L"
+            "name": "Praticar esportes",
+            "alias": "C"
           },
           {
             "id": 4,
-            "name": "Eu gosto de desafios, mas não gosto de assumir riscos desnecessários.",
-            "alias": "S"
+            "name": "Cozinhar",
+            "alias": "D"
+          },
+          {
+            "id": 5,
+            "name": "Viajar",
+            "alias": "E"
+          },
+          {
+            "id": 6,
+            "name": "Ficar em casa",
+            "alias": "F"
           }
         ]
       },
       {
         "id": 2,
-        "question": "Qual é a sua habilidade mais forte?",
-        "imgURL": "https://media.gettyimages.com/id/1343298668/pt/foto/collage-of-young-woman-multitasking-by-juggling-several-geometric-shapes.jpg?s=612x612&w=0&k=20&c=wyfHN9jINDKiNhXt6RL2-3upFpVWQFXgmufBo6ACfuM=",
+        "question": "Como você prefere passar as suas férias?",
+        "imgURL": "https://media.gettyimages.com/id/1366306516/pt/foto/medium-wide-shot-of-smiling-couple-holding-hands-while-sitting-in-hammock-on-deck-of-luxury.jpg?s=612x612&w=0&k=20&c=BYnaq3BUj_-vYLpD3TIjpigQAzOCuq3gPlBg-JQYlfk=",
         "options": [
           {
             "id": 1,
-            "name": "Inteligência e pensamento crítico.",
-            "alias": "C"
+            "name": "Não tiro férias",
+            "alias": "F"
           },
           {
             "id": 2,
-            "name": "Força e habilidade física.",
-            "alias": "G"
+            "name": "Fazer voluntariado",
+            "alias": "D"
           },
           {
             "id": 3,
-            "name": "Astúcia e habilidade de manipulação.",
-            "alias": "S"
+            "name": "Viajar para um lugar movimentado e cheio de atividades",
+            "alias": "C"
           },
           {
             "id": 4,
-            "name": "Empatia e compaixão.",
-            "alias": "L"
+            "name": "Ir a festas",
+            "alias": "E"
+          },
+          {
+            "id": 5,
+            "name": "Viajar para um lugar calmo e tranquilo",
+            "alias": "B"
+          },
+          {
+            "id": 6,
+            "name": "Ficar em casa",
+            "alias": "A"
           }
         ]
       },
       {
         "id": 3,
-        "question": "Qual é a sua maior qualidade pessoal?",
-        "imgURL": "https://media.gettyimages.com/id/1301343014/pt/foto/woman-flexing-muscles-in-front-of-superhero-shadow.jpg?s=612x612&w=0&k=20&c=M8n5pPQBgkEB-QV614DkC8zqQn0wS5x40MMYRqfzsdk=",
+        "question": "Qual é o seu tipo de música favorito?",
+        "imgURL": "https://media.gettyimages.com/id/518617693/pt/foto/woman-using-tablet-pc-in-evening.jpg?s=612x612&w=0&k=20&c=gjPbHL1nqvzFi-NceVjl3eaTUFVO8Dfdo2DBsl_4rbU=",
         "options": [
           {
             "id": 1,
-            "name": "Paciência.",
-            "alias": "L"
+            "name": "Clássica",
+            "alias": "A"
           },
           {
             "id": 2,
-            "name": "Coragem.",
-            "alias": "G"
+            "name": "Jazz",
+            "alias": "D"
           },
           {
             "id": 3,
-            "name": "Sabedoria.",
-            "alias": "C"
+            "name": "Eletrônica",
+            "alias": "E"
           },
           {
             "id": 4,
-            "name": "Ambição.",
-            "alias": "S"
+            "name": "Rock",
+            "alias": "B"
+          },
+          {
+            "id": 5,
+            "name": "Pop",
+            "alias": "C"
+          },
+          {
+            "id": 6,
+            "name": "Hip-hop",
+            "alias": "F"
           }
         ]
       },
       {
         "id": 4,
-        "question": "O que você valoriza mais em um amigo?",
-        "imgURL": "https://media.gettyimages.com/id/1391836113/pt/foto/three-young-people-sit-around-a-table-and-giggle-as-they-have-a-lighthearted-discussion-and.jpg?s=612x612&w=0&k=20&c=OdqG4UvoUrWtsDDkBJXuzgnTQE65lzgXfuyMFmy_xTA=",
+        "question": "Qual é o seu tipo de filme/série favorito?",
+        "imgURL": "https://media.gettyimages.com/id/1399612176/pt/foto/friends-watching-scary-movie-at-movie-theater.jpg?s=612x612&w=0&k=20&c=ZV1sLZ3WiznI1fJK0VViuvFilsZpEp7BDlAeDFZq3Fw=",
         "options": [
           {
             "id": 1,
-            "name": "Ambição.",
-            "alias": "S"
-          },
-          {
-            "id": 2,
-            "name": "Lealdade.",
-            "alias": "G"
-          },
-          {
-            "id": 3,
-            "name": "Inteligência.",
+            "name": "Ação",
             "alias": "C"
           },
           {
+            "id": 2,
+            "name": "Suspense",
+            "alias": "D"
+          },
+          {
+            "id": 3,
+            "name": "Comédia",
+            "alias": "B"
+          },
+          {
             "id": 4,
-            "name": "Sinceridade.",
-            "alias": "L"
+            "name": "Romance",
+            "alias": "F"
+          },
+          {
+            "id": 5,
+            "name": "Ficção científica",
+            "alias": "E"
+          },
+          {
+            "id": 6,
+            "name": "Drama",
+            "alias": "A"
           }
         ]
       },
       {
         "id": 5,
-        "question": "Como você lida com desafios emocionais?",
-        "imgURL": "https://media.gettyimages.com/id/655058143/pt/foto/mountain-man-on-a-summit.jpg?s=612x612&w=0&k=20&c=UR2S6UusHRAFhT-tpZmWvrdy-h3urj3G1yigzAH1WG4=",
+        "question": "Qual é a sua bebida preferida?",
+        "imgURL": "https://media.gettyimages.com/id/1347126218/pt/foto/cheerful-male-and-female-friends-raising-toast-while-partying-together.jpg?s=612x612&w=0&k=20&c=kZQdnuR6Q_HKmWUaMwOGPxcYp_P1lBUREoICQcgR9Hc=",
         "options": [
           {
             "id": 1,
-            "name": "Eu tomo tempo para refletir e entender meus sentimentos antes de agir.",
-            "alias": "C"
+            "name": "Água",
+            "alias": "A"
           },
           {
             "id": 2,
-            "name": "Eu busco apoio emocional de amigos e familiares.",
-            "alias": "L"
+            "name": "Álcool",
+            "alias": "F"
           },
           {
             "id": 3,
-            "name": "Eu lido com desafios emocionais sozinho(a) e não gosto de pedir ajuda.",
-            "alias": "S"
+            "name": "Suco",
+            "alias": "D"
           },
           {
             "id": 4,
-            "name": "Eu enfrento meus problemas de frente e tento resolvê-los rapidamente.",
-            "alias": "G"
+            "name": "Refrigerante",
+            "alias": "E"
+          },
+          {
+            "id": 5,
+            "name": "Café",
+            "alias": "C"
+          },
+          {
+            "id": 6,
+            "name": "Chá",
+            "alias": "B"
           }
         ]
       },
       {
         "id": 6,
-        "question": "Qual é o seu maior medo?",
-        "imgURL": "https://media.gettyimages.com/id/1352020247/pt/foto/sleepless-woman-lying-in-bed-hiding-under-duvet-at-night.jpg?s=612x612&w=0&k=20&c=LVkYVeg0GFZrvhDG9hfRO6Jv99h0yndghKmzZnY2OYo=",
+        "question": "Qual atividade você prefere fazer no fim de semana?",
+        "imgURL": "https://media.gettyimages.com/id/1341331267/pt/foto/active-senior-couple-runners-jogging-outdoors-on-sandy-beach-by-sea-in-early-morning.jpg?s=612x612&w=0&k=20&c=Ff00vBW8x0gXSWV7_KNaq9e3gENCne2J2En3Wf903gY=",
         "options": [
           {
             "id": 1,
-            "name": " Perder a si mesmo(a) ou a seus entes queridos.",
-            "alias": "G"
+            "name": "Assistir um filme em casa",
+            "alias": "F"
           },
           {
             "id": 2,
-            "name": "Perder poder ou controle sobre sua vida.",
-            "alias": "S"
+            "name": "Ir a uma festa",
+            "alias": "B"
           },
           {
             "id": 3,
-            "name": "Ser rejeitado(a) ou abandonado(a).",
-            "alias": "L"
+            "name": "Praticar um esporte ao ar livre",
+            "alias": "A"
           },
           {
             "id": 4,
-            "name": "Falhar ou tomar uma decisão errada.",
+            "name": "Ler um livro",
+            "alias": "D"
+          },
+          {
+            "id": 5,
+            "name": "Ficar em casa e jogar videogame",
+            "alias": "E"
+          },
+          {
+            "id": 6,
+            "name": "Ir a um show ou concerto",
             "alias": "C"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "question": "Qual é o seu tipo de música preferido?",
-        "imgURL": "https://media.gettyimages.com/id/1407003511/pt/foto/woman-playing-guitar-at-music-studio.jpg?s=612x612&w=0&k=20&c=kdC1JrblqybK26quan_we46POWj9jxA9492uiMwKZgw=",
-        "options": [
-          {
-            "id": 1,
-            "name": "Rock ou música clássica.",
-            "alias": "G"
-          },
-          {
-            "id": 2,
-            "name": "Folk ou música acústica.",
-            "alias": "L"
-          },
-          {
-            "id": 3,
-            "name": "Jazz ou música experimental.",
-            "alias": "C"
-          },
-          {
-            "id": 4,
-            "name": "Hip hop ou música eletrônica.",
-            "alias": "S"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "question": "Como você se sente em grandes grupos sociais?",
-        "imgURL": "https://media.gettyimages.com/id/1425336452/pt/foto/rear-view-of-tech-entrepreneur-interacting-with-audience-applauding-in-panel-discussion-at.jpg?s=612x612&w=0&k=20&c=Fd2HiEF9P3MWvChHHROuVSgySqvGpgOfvtr6QaiZlDs=",
-        "options": [
-          {
-            "id": 1,
-            "name": "Eu adoro estar no centro das atenções.",
-            "alias": "G"
-          },
-          {
-            "id": 2,
-            "name": "Eu prefiro ficar em pequenos grupos de pessoas que eu conheço bem.",
-            "alias": "C"
-          },
-          {
-            "id": 3,
-            "name": "Eu me sinto confortável em qualquer grupo social. ",
-            "alias": "L"
-          },
-          {
-            "id": 4,
-            "name": "Eu gosto de observar as pessoas antes de me juntar a um grupo.",
-            "alias": "S"
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "question": "Qual atividade você mais gosta de fazer no seu tempo livre?",
-        "imgURL": "https://media.gettyimages.com/id/509403985/pt/foto/woman-chasing-man-while-riding-bicycle.jpg?s=612x612&w=0&k=20&c=0Ptovyd-dY3WbcOPVvrrCxPH9ZSvO7nd9-yLHm0Pxns=",
-        "options": [
-          {
-            "id": 1,
-            "name": "Praticar esportes.",
-            "alias": "G"
-          },
-          {
-            "id": 2,
-            "name": "Assistir filmes e séries.",
-            "alias": "S"
-          },
-          {
-            "id": 3,
-            "name": "Ler livros.",
-            "alias": "C"
-          },
-          {
-            "id": 4,
-            "name": "Passar tempo com amigos e família.",
-            "alias": "L"
           }
         ]
       }
     ],
     "results": {
-      "G": {
-        "name": "Grifinória",
-        "imgURL": "https://img.ibxk.com.br/2021/04/19/19165615261383.jpg?ims=704x",
-        "description": "A casa da coragem, bravura e determinação. Os alunos de Grifinória são conhecidos por serem destemidos, leais e protetores. Eles valorizam a amizade e a justiça, e estão sempre dispostos a ajudar os outros. A espada de Godric Gryffindor é um símbolo importante da casa, e é dito que apenas um verdadeiro grifinório pode retirá-la do chapéu seletor."
+      "A": {
+        "name": "20-25 anos",
+        "imgURL": "https://media.gettyimages.com/id/1370100512/pt/foto/group-of-friends-in-the-street-with-smartphone.jpg?s=612x612&w=0&k=20&c=XWYDRngLBNo4S5XD_FiS6T55oR2YFISe1B5ZXBklyHU=",
+        "description": " Você é jovem e tem muita energia para aproveitar a vida. Provavelmente está se dedicando aos estudos ou em busca de uma carreira de sucesso. Não tem medo de experimentar coisas novas e está sempre em busca de novas aventuras."
+      },
+      "B": {
+        "name": "26-30 anos",
+        "imgURL": "https://media.gettyimages.com/id/1391298763/pt/foto/a-beautiful-young-happy-couple-lounge-together-on-a-soft-luxurious-yellow-sofa-in-a-modern.jpg?s=612x612&w=0&k=20&c=xbWtmOChnbJl2BoeamMS7X0h7TQtd4R3C8kl4hWQkgA=",
+        "description": "Você está em uma fase de transição em sua vida, saindo da juventude e entrando na idade adulta. Provavelmente está começando a construir sua carreira e pode estar pensando em estabelecer uma família. Tem uma boa dose de ambição, mas também sabe como relaxar e aproveitar a vida."
       },
       "C": {
-        "name": "Corvinal",
-        "imgURL": "https://img.ibxk.com.br/2021/04/19/19170352579395.jpg?ims=704x",
-        "description": " A casa da inteligência, sabedoria e criatividade. Os alunos de Corvinal são conhecidos por serem curiosos, perspicazes e astutos. Eles valorizam a sabedoria e o conhecimento, e estão sempre em busca de desafios intelectuais. A casa é associada ao animal Corvo e sua fundadora, Rowena Ravenclaw, é conhecida por ter sido uma bruxa excepcionalmente inteligente."
+        "name": "31-35 anos",
+        "imgURL": "https://media.gettyimages.com/id/1124741564/pt/foto/multi-ethnic-coworkers-discussing-in-office.jpg?s=612x612&w=0&k=20&c=_v5O7dI48i8HSibD22ed8Klypn4eNPmFSdTu4OCQ2Tg=",
+        "description": "Você está em uma fase de estabilidade, tanto em sua carreira quanto em sua vida pessoal. Tem um bom equilíbrio entre trabalho e lazer, e sabe quando é hora de se divertir e quando é hora de se concentrar. É uma pessoa confiante e experiente."
       },
-      "L": {
-        "name": "Lufa-Lufa",
-        "imgURL": "https://img.ibxk.com.br/2021/04/19/19170105421393.jpg?ims=704x",
-        "description": "A casa da amizade, lealdade e generosidade. Os alunos de Lufa-Lufa são conhecidos por serem gentis, pacientes e acolhedores. Eles valorizam a amizade e a lealdade, e estão sempre prontos para ajudar os outros. A casa é associada ao animal Texugo e sua fundadora, Helga Hufflepuff, valorizava a igualdade e a diversidade."
+      "D": {
+        "name": "36-40 anos",
+        "imgURL": "https://media.gettyimages.com/id/1363267259/pt/foto/married-couple-embracing-on-sofa.jpg?s=612x612&w=0&k=20&c=HP5dptY55oUsTa4q_lfhFKEAidDLNeDY09NXwo9PE4I=",
+        "description": "Você está entrando em uma fase de reflexão em sua vida, avaliando suas conquistas até agora e pensando no futuro. Provavelmente está estabelecido em sua carreira e talvez já tenha uma família. É uma pessoa madura e bem-sucedida, mas ainda tem muita energia para aproveitar a vida."
       },
-      "S": {
-        "name": "Sonserina",
-        "imgURL": "https://img.ibxk.com.br/2021/04/19/19170509283396.jpg?ims=704x",
-        "description": "A casa da astúcia, ambição e determinação. Os alunos de Sonserina são conhecidos por serem espertos, ambiciosos e determinados. Eles valorizam a auto-preservação e a sobrevivência, e muitas vezes são considerados individualistas. A casa é associada ao animal Cobra e seu fundador, Salazar Slytherin, valorizava a pureza do sangue e a habilidade mágica."
+      "E": {
+        "name": "41-45 anos",
+        "imgURL": "https://media.gettyimages.com/id/1452299505/pt/foto/portrait-of-surfer-couple.jpg?s=612x612&w=0&k=20&c=gCXyobvbG_PrFnkvZPAhN1onNW6qSvcOG94hcI3pDjw=",
+        "description": "Você está se aproximando da meia-idade, mas ainda se sente jovem e com muito para conquistar. Pode estar pensando em mudar de carreira ou em embarcar em novas aventuras. É uma pessoa experiente, mas ainda curiosa e pronta para aprender coisas novas."
+      },
+      "F": {
+        "name": "46 anos ou mais",
+        "imgURL": "https://media.gettyimages.com/id/1363285462/pt/foto/senior-couple-embracing-in-front-of-residential-home.jpg?s=612x612&w=0&k=20&c=0vIGmk0vMnwyHrDEiuJgEHSF0_HBRcaNJ3KypSjJtKs=",
+        "description": "Você tem uma grande experiência de vida e provavelmente já alcançou muitas de suas metas pessoais e profissionais. É uma pessoa sábia e respeitada, com muitos anos de histórias para contar. Mas isso não significa que você esteja pronto para desacelerar - ainda tem muitos planos e objetivos para o futuro."
       }
     }
   }

@@ -13,7 +13,7 @@
     <div class="quizzes">
       <div class="quiz" *ngFor="let quiz of quizzes" >
         <div class="img-quiz">
-          <img src={{quiz.imgURL}} alt="" width="280px">
+          <img src={{quiz.imgURL}} alt="" height="167.4" width="280px">
           <div class="description">
             <a [routerLink]="['/quiz/' + quiz.id]">
               {{quiz.description}}

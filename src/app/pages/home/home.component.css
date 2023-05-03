@@ -39,6 +39,10 @@
   color: #eeeeee;
 }
 
+.quiz {
+  max-width: 280px;
+}
+
 .img-quiz {
   position: relative;
   overflow: hidden;

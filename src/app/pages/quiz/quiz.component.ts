@@ -12,7 +12,7 @@ export class QuizComponent implements OnInit {
 
   displayResult: boolean = false;
   params: number = 0;
-  quizzType: any ;
+  quizzType: any;
   currentQuestion: any;
   questionsList: any[] = [];
   questionId: number = 1;
@@ -42,9 +42,9 @@ export class QuizComponent implements OnInit {
     window.scrollTo(0, document.body.scrollHeight);
   }
 
-  playerClickOption(answer:string): void {
+  playerClickOption(answer: string): void {
 
-    if(this.questionId === this.quizzType.questions.length) {
+    if (this.questionId === this.quizzType.questions.length) {
       this.answers.push(answer);
       this.questionId += 1;
       this.displayResult = true;
@@ -68,18 +68,26 @@ export class QuizComponent implements OnInit {
 
   findResult() {
     const result = this.answers.reduce(
-      (prev:string, curr:string, currId:number, arr:string[]) => {
+      (prev: string, curr: string, currId: number, arr: string[]) => {
         const prevArr = arr.filter(value => value === prev);
         const currArr = arr.filter(value => value === curr);
 
-        if(prevArr.length > currArr.length) {
+        if (prevArr.length > currArr.length) {
           return prev
         } else {
           return curr
         }
-    })
+      })
 
     return result;
+  }
+
+  reset() {
+    this.displayResult = false;
+    this.questionId = 1;
+    this.answers = [];
+    this.questionsList.splice(1, this.questionsList.length - 1);
+    this.result = undefined;
   }
 
 }
